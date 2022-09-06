@@ -35,7 +35,7 @@ Ocean Epoxy Lightbox project's Reshader class; Copyright 2020 J Epler and L Frie
 
 """
 
-"""__version__ = "0.0.0-auto.0" """
+__version__ = "0.0.0-auto.0"
 __repo__ = "https://github.com/CedarGroveStudios/Palette_Fader.git"
 
 from ulab import numpy
@@ -75,7 +75,7 @@ class PaletteFader:
                 self._ref_palette[index, 1] = (rgb & 0x00FF00) >> 8
                 self._ref_palette[index, 0] = (rgb & 0xFF0000) >> 16
 
-                if type(self._src_palette) is not list:
+                if not isinstance(self._src_palette, list):
                     # Record palette transparency color index
                     if self._src_palette.is_transparent(index):
                         self._list_transparency.append(index)
@@ -92,7 +92,6 @@ class PaletteFader:
             # Set the maximum value to the 8-bit limit (no normalization)
             self._ref_palette_max = 0xFF
         self.fade_normalize()
-
 
     @property
     def brightness(self):
@@ -123,7 +122,6 @@ class PaletteFader:
         """The adjusted displayio palette."""
         return self._new_palette
 
-
     def fade_normalize(self):
         """Create an adjusted displayio palette from the reference palette. Use
         the current brightness, gamma, and normalize parameters to build the
@@ -150,7 +148,7 @@ class PaletteFader:
                 (norm_palette[index, 0] << 16)
                 + (norm_palette[index, 1] << 8)
                 + norm_palette[index, 2]
-                )
+            )
 
             if index in self._list_transparency:
                 # Set new_palette color index transparency status
