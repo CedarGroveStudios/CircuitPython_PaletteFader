@@ -18,7 +18,7 @@ Introduction
     :target: https://github.com/psf/black
     :alt: Code Style: Black
 
-A CircuitPython displayio color palette and color list brightness setter and normalizer tool.
+A CircuitPython color palette and list brightness setter and normalizer tool.
 
 
 Dependencies
