@@ -72,6 +72,11 @@ Documentation
 =============
 `PaletteFader API Class Description <https://github.com/CedarGroveStudios/PaletteFader/blob/main/docs/pseudo%20readthedocs%20cedargrove_palettefader.pdf>`_
 
+.. image:: https://github.com/CedarGroveStudios/PaletteFader/blob/main/docs/PaletteFader_Class_description.jpeg
+
+.. image:: https://github.com/CedarGroveStudios/PaletteFader/blob/main/docs/PaletteFader_Class_internals.jpeg
+
+
 For information on building library documentation, please check out
 `this guide <https://learn.adafruit.com/creating-and-sharing-a-circuitpython-library/sharing-our-docs-on-readthedocs#sphinx-5-1>`_.
 
