@@ -70,7 +70,7 @@ Usage Example
 
 Documentation
 =============
-`PaletteFader API Class Description <https://github.com/CedarGroveStudios/PaletteFader/blob/main/docs/pseudo%20readthedocs%20cedargrove_palettefader.pdf>`_
+`PaletteFader API Class Description <https://github.com/CedarGroveStudios/PaletteFader/blob/main/docs/pseudo_readthedocs_palettefader.pdf>`_
 
 .. image:: https://github.com/CedarGroveStudios/PaletteFader/blob/main/docs/PaletteFader_Class_description.jpeg
 
