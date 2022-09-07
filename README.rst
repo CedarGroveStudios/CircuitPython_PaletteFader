@@ -9,7 +9,7 @@ Introduction
     :alt: Discord
 
 
-.. image:: https://github.com/CedarGroveStudios/Cedargrove_CircuitPython_PaletteFader/workflows/Build%20CI/badge.svg
+.. image:: https://github.com/CedarGroveStudios/CircuitPython_PaletteFader/workflows/Build%20CI/badge.svg
     :target: https://github.com/CedarGroveStudios/Cedargrove_CircuitPython_PaletteFader/actions
     :alt: Build Status
 
