@@ -3,18 +3,13 @@ Introduction
 
 
 
-
 .. image:: https://img.shields.io/discord/327254708534116352.svg
     :target: https://adafru.it/discord
     :alt: Discord
 
 
 .. image:: https://github.com/CedarGroveStudios/CircuitPython_PaletteFader/workflows/Build%20CI/badge.svg
-<<<<<<< Updated upstream
-    :target: https://github.com/CedarGroveStudios/Cedargrove_CircuitPython_PaletteFader/actions
-=======
     :target: https://github.com/CedarGroveStudios/CircuitPython_PaletteFader/actions
->>>>>>> Stashed changes
     :alt: Build Status
 
 
