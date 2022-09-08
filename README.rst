@@ -10,7 +10,11 @@ Introduction
 
 
 .. image:: https://github.com/CedarGroveStudios/CircuitPython_PaletteFader/workflows/Build%20CI/badge.svg
+<<<<<<< Updated upstream
     :target: https://github.com/CedarGroveStudios/Cedargrove_CircuitPython_PaletteFader/actions
+=======
+    :target: https://github.com/CedarGroveStudios/CircuitPython_PaletteFader/actions
+>>>>>>> Stashed changes
     :alt: Build Status
 
 
@@ -70,11 +74,11 @@ Usage Example
 
 Documentation
 =============
-`PaletteFader API Class Description <https://github.com/CedarGroveStudios/PaletteFader/blob/main/docs/pseudo_readthedocs_palettefader.pdf>`_
+`PaletteFader API Class Description <https://github.com/CedarGroveStudios/CircuitPython_PaletteFader/blob/main/docs/pseudo_readthedocs_palettefader.pdf>`_
 
-.. image:: https://github.com/CedarGroveStudios/PaletteFader/blob/main/docs/PaletteFader_Class_description.jpeg
+.. image:: https://github.com/CedarGroveStudios/CircuitPython_PaletteFader/blob/main/docs/PaletteFader_Class_description.jpeg
 
-.. image:: https://github.com/CedarGroveStudios/PaletteFader/blob/main/docs/PaletteFader_Class_internals.jpeg
+.. image:: https://github.com/CedarGroveStudios/CircuitPython_PaletteFader/blob/main/docs/PaletteFader_Class_internals.jpeg
 
 
 For information on building library documentation, please check out
