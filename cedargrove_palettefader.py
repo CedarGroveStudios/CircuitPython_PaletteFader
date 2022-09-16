@@ -35,7 +35,7 @@ Ocean Epoxy Lightbox project's Reshader class; Copyright 2020 J Epler and L Frie
 
 """
 
-__version__ = "0.0.0-auto.0"
+__version__ = "0.0.0+auto.0"
 __repo__ = "https://github.com/CedarGroveStudios/Palette_Fader.git"
 
 from ulab import numpy
