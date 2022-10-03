@@ -22,10 +22,8 @@ from simpleio import map_range
 from adafruit_matrixportal.matrix import Matrix
 from adafruit_display_text.label import Label
 from adafruit_display_shapes.rect import Rect
-
-# from adafruit_display_shapes.circle import Circle
 import adafruit_imageload
-from cedargrove_palettefader import PaletteFader
+from cedargrove_palettefader.palettefader import PaletteFader
 
 # fmt: off
 # Define a few colors
