@@ -19,11 +19,6 @@ Introduction
 
 A CircuitPython color palette and list brightness setter and normalizer tool.
 
-NOTE for MatrixPortal projects: PaletteFader requires the CircuitPython ulab
-module for palette calculations. The ulab module is not built into
-CircuitPython v7.3.3 for the MatrixPortal. Use v7.3.2 instead.
-See https://github.com/adafruit/circuitpython/pull/6779
-
 
 Dependencies
 =============
