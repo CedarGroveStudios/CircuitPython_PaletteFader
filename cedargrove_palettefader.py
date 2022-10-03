@@ -24,8 +24,6 @@ Implementation Notes
 
 **Hardware:**
 
-* Specifically designed for the MatrixPortal. Replaces the need for ulab.
-
 **Software and Dependencies:**
 
 * Adafruit CircuitPython firmware for the supported boards:
