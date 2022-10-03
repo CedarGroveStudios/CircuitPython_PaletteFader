@@ -39,7 +39,7 @@ ICON_SPRITE           =  0  # Select a tile from the spritesheet
 
 # Define background graphic object parameters
 BKG_BRIGHTNESS = 0.2   # Initial brightness level
-BKG_GAMMA      = 0.65  # Works nicely for brightness = 0.2
+BKG_GAMMA      = 0.55  # Works nicely for brightness = 0.2
 BKG_IMAGE_FILE = "background.bmp"
 
 # Instantiate fader potentiometer
