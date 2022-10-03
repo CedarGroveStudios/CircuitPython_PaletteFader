@@ -23,7 +23,7 @@ Implementation Notes
 --------------------
 
 The ulab-based reference palette creation code runs slightly faster than the
-"vanilla" version. The ulab code was adapted from the Adafruit Ocean Epoxy 
+"vanilla" version. The ulab code was adapted from the Adafruit Ocean Epoxy
 Lightbox project's Reshader class; Copyright 2020 J Epler and L Fried.
 <https://learn.adafruit.com/ocean-epoxy-resin-lightbox-with-rgb-led-matrix-image-scroller>
 
