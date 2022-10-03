@@ -60,7 +60,7 @@ Usage Example
 
 .. code-block:: py
 
-    # For CircuitPython versions without ulab (such as the MatrixPortal)
+    # For CircuitPython distributions without ulab (such as the MatrixPortal)
     from cedargrove_palettefader.palettefader import PaletteFader
 
     # Instantiate PaletteFader
@@ -68,7 +68,7 @@ Usage Example
 
 .. code-block:: py
 
-    # For CircuitPython version with ulab
+    # For CircuitPython distributions with ulab
     from cedargrove_palettefader.palettefader_ulab import PaletteFader
 
     # Instantiate PaletteFader
