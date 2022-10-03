@@ -60,7 +60,16 @@ Usage Example
 
 .. code-block:: py
 
-    from cedargrove_palettefader import PaletteFader
+    # For CircuitPython versions without ulab (such as the MatrixPortal)
+    from cedargrove_palettefader.palettefader import PaletteFader
+
+    # Instantiate PaletteFader
+    faded_object = PaletteFader(source_palette=object_palette, brightness=0.5)
+
+.. code-block:: py
+
+    # For CircuitPython version with ulab
+    from cedargrove_palettefader.palettefader_ulab import PaletteFader
 
     # Instantiate PaletteFader
     faded_object = PaletteFader(source_palette=object_palette, brightness=0.5)
