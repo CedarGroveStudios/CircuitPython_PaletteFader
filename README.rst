@@ -51,7 +51,7 @@ following command to install:
 
 .. code-block:: shell
 
-    circup install palettefader
+    circup install cedargrove_palettefader
 
 Or the following command to update an existing version:
 
