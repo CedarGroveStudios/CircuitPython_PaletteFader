@@ -37,7 +37,7 @@ Lightbox project's Reshader class; Copyright 2020 J Epler and L Fried.
 """
 
 __version__ = "0.0.0+auto.0"
-__repo__ = "https://github.com/CedarGroveStudios/Palette_Fader.git"
+__repo__ = "https://github.com/CedarGroveStudios/CircuitPython_PaletteFader.git"
 
 from ulab import numpy
 import displayio

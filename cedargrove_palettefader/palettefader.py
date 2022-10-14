@@ -32,7 +32,7 @@ Implementation Notes
 """
 
 __version__ = "0.0.0+auto.0"
-__repo__ = "https://github.com/CedarGroveStudios/Palette_Fader.git"
+__repo__ = "https://github.com/CedarGroveStudios/CircuitPython_PaletteFader.git"
 
 import displayio
 
