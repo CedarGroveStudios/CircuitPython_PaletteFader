@@ -82,7 +82,7 @@ Usage Example
 
 Documentation
 =============
-`PaletteFader API Class Description <https://github.com/CedarGroveStudios/CircuitPython_PaletteFader/blob/main/media/pseudo_readthedocs_palettefader.pdf>`_
+`PaletteFader API Class Description <https://github.com/CedarGroveStudios/CircuitPython_PaletteFader/blob/main/media/pseudo_rtd_cedargrove_palettefader.pdf>`_
 
 .. image:: https://github.com/CedarGroveStudios/CircuitPython_PaletteFader/blob/main/media/PaletteFader_Class_description.jpeg
 
