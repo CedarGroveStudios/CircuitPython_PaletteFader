@@ -19,7 +19,7 @@ Introduction
 
 *A CircuitPython color palette and list brightness setter and normalizer tool.*
 
-PaletteFader is a CircuitPython driver class for brightness-adjusting color lists and displayio palettes. Normalization is optionally applied to the palette prior to brightness and gamma adjustments. Transparency index values are preserved and associated with the adjusted palette. Creates an adjusted displayio color palette object (``displayio.Palette``) property that can also be read as a color list.
+PaletteFader is a CircuitPython class for brightness-adjusting color lists and displayio palettes. Normalization is optionally applied to the palette prior to brightness and gamma adjustments. Transparency index values are preserved and associated with the adjusted palette. Creates an adjusted displayio color palette object (``displayio.Palette``) property that can also be read as a color list.
 
 Two versions of PaletteFader are contained in the ``cedargrove_palettefader`` package folder, ``palettefader`` and ``palettefader_ulab``. The faster of the two is ``palettefader_ulab``, requiring CircuitPython with ``ulab`` as a built-in module. Certain CircuitPython distributions and versions may not support ``ulab``; check your specific implementation. For example, ``ulab`` is not included in MatrixPortal distributions after CircuitPython version 7.3.2. A list of built-in modules are listed for each distribution on the https://circuitpython.org/downloads page.
 
