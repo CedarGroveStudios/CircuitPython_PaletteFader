@@ -46,3 +46,4 @@ _build
 .idea
 .vscode
 *~
+*.key
