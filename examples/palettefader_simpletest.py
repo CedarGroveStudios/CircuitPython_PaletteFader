@@ -67,7 +67,7 @@ bkg_faded = PaletteFader(bkg_palette_source, BKG_BRIGHTNESS, BKG_GAMMA, normaliz
 bkg_tile = displayio.TileGrid(bkg_bitmap, pixel_shader=bkg_faded.palette)
 primary_group.append(bkg_tile)
 
-display.show(primary_group)
+display.root_group = primary_group
 
 # Load the icon spritesheet and source palette
 icon_spritesheet, icon_palette_source = adafruit_imageload.load(
@@ -148,7 +148,6 @@ while True:
 
     # Update brightness fader values every 0.1 second and on initial run
     if (not fader_refresh_timer) or (time.monotonic() - fader_refresh_timer) > 0.1:
-
         if ANALOG_FADER:
             # Read the potentiometer and calculate a new brightness value
             DISPLAY_BRIGHTNESS = int(map_range(fader.value, 300, 54000, 5, 100)) / 100
